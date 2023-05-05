@@ -18,7 +18,7 @@ const Pokemon = ({pokemon, index}) => {
             height={200}
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index+1}.png`}
             placeholder="blur"
-            blurDataURL="/static/images/spinner.gif"
+            blurDataURL="/pokeball.png"
             unoptimized={true}
           />
         </div>
